@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+	
+	
+	<span id="demo">Copy me!</span>
+<button onclick="copyToClipboard('demo')">
+  Copy to Clipboard
+</button>
+
+
+
+
+
+
+
+	<span id="demod">Copydadadwa me!</span>
+<button id="copystyle" onclick="copyToClipdboard('demod')">
+  Copy to Clipboard
+</button>
+
+
+
+<span id="demodd">01018813328 me!</span>
+<button id="copystyle" onclick="copyToClipdboard('demodd')">
+  Copy to Clipboard
+</button>
+
+
+
+
+
+
+
+
+  </body>
+
+  <script>
+const copyToClipboard = (elementId) => {
+  const temp = document.createElement("input");
+  const text = document.getElementById(elementId).innerHTML;
+  temp.setAttribute("value", text);
+  document.body.appendChild(temp);
+  temp.select();
+  document.execCommand("copy");
+  document.body.removeChild(temp);
+};
+
+
+
+
+const copyToClipdboard = (elementId) => {
+  const temp = document.createElement("input");
+  const text = document.getElementById(elementId).innerHTML;
+  temp.setAttribute("value", text);
+  document.body.appendChild(temp);
+  temp.select();
+  document.execCommand("copy");
+  document.body.removeChild(temp);
+
+
+  const copyToClipdboard = (elementId) => {
+  const temp = document.createElement("input");
+  const text = document.getElementById(elementId).innerHTML;
+  temp.setAttribute("value", text);
+  document.body.appendChild(temp);
+  temp.select();
+  document.execCommand("copy");
+  document.body.removeChild(temp);
+};
+
+
+};
+
+
+
+
+
+
+
+
+	</script>
+
+
+
+
+</html>
+<style>
+
+#copystyle{
+
+background-color: blue;
+color: rgb(243, 239, 239);
+border-radius: 8px;
+
+}
+#copystyle:hover{
+  color: rgb(228, 226, 226);
+  background-color: blueviolet;
+}
+
+</style>

@@ -1,0 +1,8 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.light-mode {
+    background-color: rgba(91, 102, 39, 0.486);
+    color: black;
+}
