@@ -20,9 +20,9 @@
   }
   
   #myUL li a {
-    border: 7px solid #B8E8FF;
+    border: 7px solid #283747;
     margin-top: -1px; /* Prevent double borders */
-    background-color: #0F5A7D;
+    background-color: #37536D ;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -32,5 +32,5 @@
   }
   
   #myUL li a:hover:not(.header) {
-    background-color: rgb(179, 182, 182);
+    background-color: #4F5860   ;
   }
